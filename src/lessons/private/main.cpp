@@ -1,8 +1,11 @@
 #include <iostream>
 
-#include "main.h"
+#include "public/main.h"
 
 int main()
 {
-    std::cout << "Hello, world!" << std::endl;
+    LessonOne();
+    LessonTwo();
+    return 0;
 }
+
