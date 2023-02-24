@@ -4,9 +4,9 @@
 
 int main()
 {
-    //LessonOne();
-    //LessonTwo();
-    //LessonThree();
+    LessonOne();
+    LessonTwo();
+    LessonThree();
     LessonFour();
     return 0;
 }

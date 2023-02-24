@@ -1,9 +1,12 @@
 #pragma once
 
+#include <iostream>
+
 using namespace std;
 
 void LessonOne()
 {
+    cout << "LESSON ONE:  Introduction" << endl << endl;
     string mystring;
     mystring = "Name: Francisco Martinez\n";
 
@@ -13,11 +16,12 @@ void LessonOne()
     cout << mystring;
     mystring = "Major: Software Engineering\n";
 
-    cout << mystring;
+    cout << mystring << endl << endl;
 }
 
 void LessonTwo()
 {
+    cout << "LESSON TWO:  Number" << endl << endl;
     string name = "Francisco Martinez";
     double num = 7;
     double num1 = num / 2;
@@ -26,11 +30,13 @@ void LessonTwo()
     cout << "Name: " << name;
     cout << "\nNumber: " << num;
     cout << "\nNumber divided by 2 = " << num1;
-    cout << "\nNumber times 11 = " << num2;
+    cout << "\nNumber times 11 = " << num2 << endl << endl;
+    
 }
 
 void LessonThree()
 {
+    cout << "LESSON THREE:  Gas Tank" << endl << endl;
     double gallons; //To hold the has tank capacity (in gallons)
     double miles; //To hold the miles the car can go on 1 tank of gas
     double mileage; //To hold the calculated miles per gallon
@@ -47,11 +53,12 @@ void LessonThree()
     mileage = miles / gallons;
 
     // Display the result
-    cout << "This car gets " << mileage << " miles per gallon.";
+    cout << "This car gets " << mileage << " miles per gallon." << endl << endl;
 }
 
 void LessonFour()
 {
+    cout << "LESSON FOUR:  Age Restrictions" << endl << endl;
     int answer, drive, vote, gamble;
     // Making answer for storing age and other variables for checking conditions
     cout << "Enter Your Age: ";
@@ -94,7 +101,7 @@ void LessonFour()
             gamble = 21 - answer;
             cout << "You have " << drive << " years until you are old enough to drive a car." << endl;
             cout << "You have " << vote << " years until you are old enough to vote." << endl;
-            cout << "You have " << gamble << " years until you are old enough to gamble." << endl;
+            cout << "You have " << gamble << " years until you are old enough to gamble." << endl << endl;
         }
     }
 }
